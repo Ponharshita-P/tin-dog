@@ -1,0 +1,187 @@
+
+ h1 {
+    
+    font-family: "Montserrat";
+    line-height : 1.5;  
+    font-size : 3.5rem;
+    font-weight: 900;
+    
+}
+
+body {
+    font-family: "Montserrat";
+    
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight : 900;
+}
+
+h3 {
+    font-family: "Montserrat";
+    font-weight : 900;
+    font-size: large;
+}
+
+p {
+    color : #8f8f8f
+}
+
+/* Pseudo-Class */
+
+.icon:hover {
+    color: #ff4c68;
+  }
+
+/* Selector-ID */
+
+#title {
+    background-color: #ff4c68;
+    color : white;
+    position: relative;
+
+}
+
+.foot {
+    padding-left: 36.2rem;
+}
+.copyright{
+    padding-left: 35rem;
+}
+
+.title-image {
+    width : 20%;
+    transform : rotate(25deg);
+    position : absolute;
+}
+
+#features {
+    padding : 7% 15%;
+    background-color: white;
+    z-index : 1;
+    position: relative;
+}
+
+#testimonials {
+    
+    text-align: center; 
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align : center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    padding : 100px;
+    text-align : center;
+}
+
+#cta {
+     background-color: #ff4c68;
+     color : white;
+     text-align: center;
+     padding : 70px;
+
+}
+
+
+
+/* Selector-Class */
+
+.h3 {
+    
+    font-family: "Montserrat";
+      
+    font-size : 2.5rem;
+    font-weight: 900;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.pricing-column {
+    padding :3% 2%;
+}
+
+.icon {
+    padding-bottom: 20px;
+    color : #ef8172;
+}
+
+.footer-icon {
+    padding : 20px 5px;
+}
+
+.container-fluid {
+    padding : 3% 15%;
+}
+
+
+
+.testimonial-image {
+    width : 10%;
+    border-radius: 100%;
+    margin : 20px;
+}
+
+.press-logo {
+    width : 15%;
+    margin : 20px 20px 50px;
+}
+
+.feature-box {
+    text-align: center;
+    padding : 5%;
+   
+}
+
+.row {
+    font-size: smaller;
+    font-weight: 500;
+}
+
+/* Navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding : 0 18px 0 18px;
+}
+.nav-link {
+    font-size : 1.2rem;
+    font-weight: bold;
+    font-family: "Montserrat-light";
+    color : white !important;
+}
+
+/* Download buttons */
+
+.download-buttons {
+    margin : 5% 3% 5% 0;
+}
+
+@media (max-width : 1028px) {
+    
+
+    #title { 
+        text-align : center;
+    }
+    
+    .title-image {
+        position : static;
+        transform : rotate(0);
+        width : 60%;
+    }
+}
